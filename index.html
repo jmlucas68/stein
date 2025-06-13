@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edith Stein - Vida, Obra y Pensamiento</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        header {
+            background-color: #6c757d;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #495057;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+            nav a {
+                color: white;
+                padding: 1rem;
+                text-decoration: none;
+            }
+
+                nav a:hover {
+                    background-color: #343a40;
+                }
+
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #343a40;
+        }
+
+        blockquote {
+            font-style: italic;
+            background-color: #e9ecef;
+            padding: 1rem;
+            border-left: 4px solid #6c757d;
+            margin: 1rem 0;
+        }
+
+        .links a {
+            display: block;
+            margin: 0.5rem 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .links a:hover {
+                text-decoration: underline;
+            }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #dee2e6;
+            font-size: 0.9rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                flex: 1 1 100%;
+                text-align: center;
+            }
+
+            section {
+                padding: 1rem;
+            }
+        }
+    </style>
+    <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Edith Stein (Santa Teresa Benedicta de la Cruz)</h1>
+        <p>Filósofa, fenomenóloga, mística y mártir (1891–1942)</p>
+    </header>
+
+    <nav>
+        <a href="#vida" onclick="scrollToSection('vida')">Vida</a>
+        <a href="#pensamiento" onclick="scrollToSection('pensamiento')">Pensamiento</a>
+        <a href="#influencias" onclick="scrollToSection('influencias')">Influencias</a>
+        <a href="#contexto" onclick="scrollToSection('contexto')">Contexto</a>
+        <a href="#obras" onclick="scrollToSection('obras')">Obras</a>
+        <a href="#enlaces" onclick="scrollToSection('enlaces')">Fuentes</a>
+    </nav>
+
+    <section id="vida">
+        <h2>Vida</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Edith_Stein_ca_1920s.jpg/480px-Edith_Stein_ca_1920s.jpg" alt="Foto de Edith Stein">
+        <p>
+            Edith Stein nació en Breslavia (entonces Alemania, hoy Polonia) en 1891 en una familia judía. Fue discípula de Edmund Husserl y trabajó como asistente suya. Se convirtió al catolicismo en 1922 y más tarde ingresó al Carmelo Descalzo. Murió en Auschwitz en 1942 y fue canonizada por el Papa Juan Pablo II en 1998.
+        </p>
+    </section>
+
+    <section id="pensamiento">
+        <h2>Pensamiento y Obra</h2>
+        <p>
+            Su pensamiento se caracteriza por una síntesis entre la fenomenología, el tomismo y la espiritualidad cristiana. Se interesó profundamente por la persona humana, la empatía, la libertad y la vocación de la mujer.
+        </p>
+        <blockquote>
+            "Quien busca la verdad, consciente o inconscientemente, busca a Dios."
+        </blockquote>
+        <blockquote>
+            "Cuanto más oscuro está a nuestro alrededor, más debemos abrir el corazón a la luz que viene de lo alto."
+        </blockquote>
+    </section>
+
+    <section id="influencias">
+        <h2>Influencias</h2>
+        <ul>
+            <li>Influencias recibidas: Edmund Husserl, Tomás de Aquino, Teresa de Ávila</li>
+            <li>Influencias ejercidas: Juan Pablo II, fenomenología cristiana contemporánea</li>
+        </ul>
+    </section>
+
+    <section id="contexto">
+        <h2>Contexto histórico y filosófico</h2>
+        <p>
+            Edith vivió en la transición del Imperio Alemán al nazismo. Fue testigo de las crisis espirituales y sociales del siglo XX, y su pensamiento responde al existencialismo y al nihilismo con una filosofía profundamente personalista y trascendental.
+        </p>
+    </section>
+
+    <section id="obras">
+        <h2>Principales obras</h2>
+        <ul>
+            <li><a href="https://archive.org/details/serfinitoyeternoedicionespanol" target="_blank">Ser finito y ser eterno</a> (archive.org)</li>
+            <li><a href="https://www.amazon.es/dp/8432132418" target="_blank">La mujer: su naturaleza y misión</a> (Amazon)</li>
+            <li><a href="https://www.amazon.es/dp/8432130024" target="_blank">La estructura de la persona humana</a> (Amazon)</li>
+            <li><a href="https://www.amazon.es/dp/8432144378" target="_blank">Ciencia de la Cruz</a> (Amazon)</li>
+        </ul>
+    </section>
+
+    <section id="enlaces">
+        <h2>Enlaces y fuentes externas</h2>
+        <div class="links">
+            <a href="https://es.wikipedia.org/wiki/Edith_Stein" target="_blank">Wikipedia - Edith Stein</a>
+            <a href="https://www.academia.edu/Documents/in/Edith_Stein" target="_blank">Artículos sobre Edith Stein en Academia.edu</a>
+            <a href="https://www.ewtn.com/catholicism/library/edith-stein-her-life-in-brief-2060" target="_blank">EWTN - Breve biografía</a>
+            <a href="https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19981011_edith_stein_sp.html" target="_blank">Vaticano - Canonización de Edith Stein</a>
+        </div>
+    </section>
+
+    <footer>
+        Página creada en Unicode UTF-8 | Datos obtenidos de fuentes públicas y libres | © 2025
+    </footer>
+</body>
+</html>
